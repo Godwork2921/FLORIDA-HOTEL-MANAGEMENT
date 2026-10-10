@@ -1,0 +1,30 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+coverage/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
